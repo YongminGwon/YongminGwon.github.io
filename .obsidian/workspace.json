@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-01-26-second.md",
+                "file": "_posts/2024-01-25-first.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-01-26-second.md",
+                "file": "_posts/2024-01-25-first.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-01-26-second.md",
+                "file": "_posts/2024-01-25-first.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-01-26-second.md"
+                "file": "_posts/2024-01-25-first.md"
               }
             }
           }
@@ -148,7 +148,7 @@
   },
   "active": "d180a83fa7f0789a",
   "lastOpenFiles": [
-    "_posts/2024-01-25-first.md",
-    "_posts/2024-01-26-second.md"
+    "_posts/2024-01-26-second.md",
+    "_posts/2024-01-25-first.md"
   ]
 }
