@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-02-022-OpenGL.md",
+                "file": "_posts/2024-02-22-GLSL.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-02-022-OpenGL.md",
+                "file": "_posts/2024-02-22-GLSL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-02-022-OpenGL.md",
+                "file": "_posts/2024-02-22-GLSL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-02-022-OpenGL.md"
+                "file": "_posts/2024-02-22-GLSL.md"
               }
             }
           }
@@ -162,7 +162,7 @@
   "active": "713ebe0c390aeefb",
   "lastOpenFiles": [
     "_posts/2024-02-21-OpenGL.md",
-    "_posts/2024-02-022-OpenGL.md",
+    "_posts/2024-02-22-GLSL.md",
     "_posts/2024-02-01-fifth.md",
     "_posts/2024-01-29-fourth.md",
     "_posts/2024-01-27-third.md",
