@@ -30,21 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "9aadc8de669304a3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-02-23-Texture.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-02-23-Texture.md",
+                "file": "_posts/2024-02-22-GLSL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-02-23-Texture.md",
+                "file": "_posts/2024-02-22-GLSL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-02-23-Texture.md"
+                "file": "_posts/2024-02-22-GLSL.md"
               }
             }
           }
@@ -171,10 +159,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9aadc8de669304a3",
+  "active": "713ebe0c390aeefb",
   "lastOpenFiles": [
-    "_posts/2024-02-22-GLSL.md",
     "_posts/2024-02-23-Texture.md",
+    "_posts/2024-02-22-GLSL.md",
     "_posts/2024-02-21-OpenGL.md",
     "_posts/2024-02-01-fifth.md",
     "_posts/2024-01-29-fourth.md",
