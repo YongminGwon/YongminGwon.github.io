@@ -15,4 +15,5 @@ OpenGL Depth Buffer 초기값은 1
 1이 가장 뒤 0이 가장 앞 (왼손 좌표계)
 glEnable(GL_DEPTH_TEST) / glDisable(GL_DEPTH_TEST)
 glDepthFunc()로 깊이테스트 통과 조건 변경 가능
-기본
+기본값은 GL_LESS
+
