@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-02-23-Texture.md",
+                "file": "_posts/2024-02-25-Coordinate.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "2fac12eab98cef9b",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-02-23-Texture.md",
+                "file": "_posts/2024-02-25-Coordinate.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-02-23-Texture.md",
+                "file": "_posts/2024-02-25-Coordinate.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-02-23-Texture.md"
+                "file": "_posts/2024-02-25-Coordinate.md"
               }
             }
           }
@@ -161,8 +162,9 @@
   },
   "active": "713ebe0c390aeefb",
   "lastOpenFiles": [
-    "_posts/2024-02-22-GLSL.md",
     "_posts/2024-02-23-Texture.md",
+    "_posts/2024-02-25-Coordinate.md",
+    "_posts/2024-02-22-GLSL.md",
     "_posts/2024-02-21-OpenGL.md",
     "_posts/2024-02-01-fifth.md",
     "_posts/2024-01-29-fourth.md",
