@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: Graphics
+title: Graphics Illumination
 ---
 Local/Global Illumination
 반사광 : 광원이 물체에 반사되어 발생한 빛
@@ -16,6 +16,8 @@ Ambient Light
 
 Diffuse Light
 - 빛이 물체에 부딫혔을 때 모든 방향으로 퍼지는 빛
+- diffuse = dot(light, normal) 
+	- 사잇각을 쓰므로
 
 Specular Light
 - 
