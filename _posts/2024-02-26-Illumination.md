@@ -22,6 +22,6 @@ Diffuse Light
 Specular Light
 - 반사광
 - 빛이 물체 표면에 부딪혀 반사되는 광원
-- reflect = 2*dot(light, normal) - light
+- reflect = 2 * dot(light, normal) * normal - light
 - specular = dot(view, reflect)
 
