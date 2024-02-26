@@ -20,4 +20,8 @@ Diffuse Light
 	- 사잇각을 쓰므로
 
 Specular Light
-- 
+- 반사광
+- 빛이 물체 표면에 부딪혀 반사되는 광원
+- reflect = 2*dot(light, normal) - light
+- specular = dot(view, reflect)
+
