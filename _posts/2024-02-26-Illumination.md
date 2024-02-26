@@ -32,4 +32,7 @@ Point Light
 - Attenuation : 빛의 감쇠
 
 Spot Light
+- 부드러운 경계선 만드는방법
+- cos값을 사용하여 linear interpolation
+- I = (cos(x) - cos(outer)) / (cos(inner) - cos(outer))
 
