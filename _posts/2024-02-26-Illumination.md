@@ -31,4 +31,5 @@ Directional Light
 Point Light
 - Attenuation : 빛의 감쇠
 
+Spot Light
 
