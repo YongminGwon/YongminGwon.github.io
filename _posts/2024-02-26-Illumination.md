@@ -26,3 +26,7 @@ Specular Light
 - reflect = 2 * dot(light, normal) * normal - light
 - specular = dot(view, reflect)
 
+Directional Light
+
+Point Light
+
