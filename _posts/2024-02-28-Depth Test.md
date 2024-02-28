@@ -17,3 +17,15 @@ glStencilMask(0xFF);
 glStencilFunc(GL_EQUAL, 1, 0xFF);
 ```
 
+Stencil Operation
+```
+glStencilOp(sfail, dpfail, dppass)
+```
+sfail : stencil test가 실패했을시 동작
+dpfail : stencil test는 통과했지만 depth test가 실패했을때 동작
+dppass: 모두 통과했을 떄 동작
+
+GL_KEEP : 현재의 스텐실 버퍼값 유지
+GL_ZERO : 스텐실 버퍼를 0으로 변경
+GL_REPLACE : glStencilFunc를 통해 설정된 값으로 변경
+GL_INVERT : 스텐실버퍼값을 bitwise invert 시킴
