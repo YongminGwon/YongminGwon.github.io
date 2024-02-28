@@ -29,3 +29,7 @@ GL_KEEP : 현재의 스텐실 버퍼값 유지
 GL_ZERO : 스텐실 버퍼를 0으로 변경
 GL_REPLACE : glStencilFunc를 통해 설정된 값으로 변경
 GL_INVERT : 스텐실버퍼값을 bitwise invert 시킴
+GL_INCR :
+GL_INCR_WRAP : 
+GL_DCR :
+GL_DECR_WRAP : 
