@@ -33,3 +33,7 @@ GL_INCR :
 GL_INCR_WRAP : 
 GL_DCR :
 GL_DECR_WRAP : 
+
+Blending
+- 그리려고하는 픽셀과 프레임버퍼에 저장된 픽셀간의 연산
+
