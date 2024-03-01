@@ -55,3 +55,7 @@ Uniform buffer object
 unsigned int uboExampleBlock; glGenBuffers(1, &uboExampleBlock); glBindBuffer(GL_UNIFORM_BUFFER, uboExampleBlock); glBufferData(GL_UNIFORM_BUFFER, 152, NULL, GL_STATIC_DRAW); // 152 bytes glBindBuffer(GL_UNIFORM_BUFFER, 0);
 ```
 
+## Instancing
+
+동일한 오브젝트를 여러번 그릴때 하나의 인스턴스화 시켜놓는것
+
