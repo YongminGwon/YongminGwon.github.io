@@ -26,3 +26,15 @@ glCullFace(GL_FRONT); // 앞면을 그리지 않기
 ## Post Processing
 
 렌더링된 텍스처에 추가 효과
+
+## Cubemap
+
+2D texture 6장으로 정육면체 형태로 이어붙인 텍스처맵
+주변환경을 그리거나 주변환경을 반사시켜 사실감을 높이는데 효과적
+
+sphermap도 있음
+
+skybox는 3D장면의 뒷배경을 채워주는 큰 큐브 적은 정점으로 주변 환경을 그릴 수 있음
+
+
+
