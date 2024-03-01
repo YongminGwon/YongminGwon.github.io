@@ -23,3 +23,5 @@ glCullFace(GL_FRONT); // 앞면을 그리지 않기
 - 렌더버퍼를 프레임 버퍼에 연결
 - 해당 렌더버퍼의 조합이 프레임버퍼로 사용가능한지 확인
 
+## Post Processing
+
