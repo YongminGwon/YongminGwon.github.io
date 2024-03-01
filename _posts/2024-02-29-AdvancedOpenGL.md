@@ -25,3 +25,4 @@ glCullFace(GL_FRONT); // 앞면을 그리지 않기
 
 ## Post Processing
 
+렌더링된 텍스처에 추가 효과
