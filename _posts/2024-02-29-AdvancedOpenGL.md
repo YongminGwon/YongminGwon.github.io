@@ -61,3 +61,6 @@ unsigned int uboExampleBlock; glGenBuffers(1, &uboExampleBlock); glBindBuffer(GL
 
 여러 오브젝트를 한번의 draw call로 그리도록 해주는 기능
 cpu-gpu간 통신을 줄여서 성능저하를 방지
+glDrawArraysInstanced(), glDrawElementsInstanced() 함수 사용
+파라미터로 인스턴스의 개수를 제공
+
