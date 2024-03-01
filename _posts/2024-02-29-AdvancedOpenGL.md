@@ -48,3 +48,10 @@ skybox는 3D장면의 뒷배경을 채워주는 큰 큐브 적은 정점으로 �
 ## Advanced GLSL
 
 interface block
+
+Uniform buffer object
+
+```
+unsigned int uboExampleBlock; glGenBuffers(1, &uboExampleBlock); glBindBuffer(GL_UNIFORM_BUFFER, uboExampleBlock); glBufferData(GL_UNIFORM_BUFFER, 152, NULL, GL_STATIC_DRAW); // 152 bytes glBindBuffer(GL_UNIFORM_BUFFER, 0);
+```
+
