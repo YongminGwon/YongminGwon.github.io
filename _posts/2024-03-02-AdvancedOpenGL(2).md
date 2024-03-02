@@ -22,4 +22,7 @@ MSAA의 아이디어
 
 Phong Shading의 문제점
 - Specular shininess 값이 작을 경우 highlight 부분이 잘리는 현상
+- Specular를 계산할 때 view와 reflection간의 각도가 90보다 커질때 cutoff가 발생
 
+Blinn의 방식 
+- view와 light를 이등분하는 halfway 벡터와 normal 벡터의 사잇각으로 계산.
