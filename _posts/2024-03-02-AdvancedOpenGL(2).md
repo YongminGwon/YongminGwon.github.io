@@ -18,3 +18,8 @@ MSAA의 아이디어
 
 
 
+## Blinn-Phong Shading
+
+Phong Shading의 문제점
+- Specular shininess 값이 작을 경우 highlight 부분이 잘리는 현상
+
