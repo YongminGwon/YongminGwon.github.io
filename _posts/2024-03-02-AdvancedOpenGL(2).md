@@ -26,3 +26,13 @@ Phong Shading의 문제점
 
 Blinn의 방식 
 - view와 light를 이등분하는 halfway 벡터와 normal 벡터의 사잇각으로 계산.
+## Shadow Map
+
+- 가장 많이 사용되는 그림자 렌더링 알고리즘
+- 구현 난이도도 어렵지 않으며 성능을 많이 잡아먹지도 않는다.
+- 고급 알고리즘으로의 확장이 편하다
+	- omnidiractional shadow map
+	- cascaded shadow map
+
+- 빛의 시점에서 렌더링을 해본다.
+- 빛이 볼 수 있는 부분은 그림자가 지지않고 볼수있는 부분은 그림자가 진다.
