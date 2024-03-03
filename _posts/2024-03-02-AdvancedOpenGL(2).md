@@ -67,3 +67,4 @@ depth cube map을 생성하는 방식
 이를 커버할 수 있음
 normal map은 픽셀의 rgb 값에 normal xyz값이 저장되어 있다.
 
+## Tangent Space
