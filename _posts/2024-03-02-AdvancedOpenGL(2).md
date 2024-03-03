@@ -79,3 +79,11 @@ normal mapping은 큰 깊이감은 만들 수 없고 경계면에서의 입체�
 그래픽 하드웨어가 다룰 수 있는 색상값의 범위
 - 0.0 ~ 1.0 사이의 값
 - fragment shader에서 1.0보다 큰 값이 들어오면 clamp 처리됨
+
+- Naive Solution
+	- light strength를 줄여서 1.0을 넘지 못하게 한다
+	- 비현실적인 light parameter 설정을 하게 되어 좋지않은 결과 발생
+- Better Solution
+	- 일시적으로 1.0 넘는 값도 허용한다.
+	- 마지막에 0.0~ 1.0 사이로 조절한다.
+- 
