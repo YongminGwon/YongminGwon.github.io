@@ -52,3 +52,6 @@ Dynamic shadow bias를 적용하였을 때 bias가 크면 그림자가 멀리에
 - shadow bias값을 잘 조절하거나
 - face culling을 사용해 뒷면만 그리도록 함
 
+## PCF (Percentage Closer Filtering)
+- shadow map으로부터 depth값을 여러개 수집해 계산된 shadow 값의 평균을 사용
+
