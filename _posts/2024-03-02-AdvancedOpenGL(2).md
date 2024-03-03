@@ -38,3 +38,9 @@ Blinn의 방식
 - 빛이 볼 수 있는 부분은 그림자가 지지않고 볼수있는 부분은 그림자가 진다.
 
 light source의 위치에서 물체들의 depth map만 렌더링하고 이를 바탕으로 빛을 받는지 아닌지 판단하여 그림자를 그린다.
+
+Shadow Map 그렸을 때 Shadow acne가 일어날 수 있다.
+shadow map의 해상도가 한정적이기 때문
+bias를 더한 값을 비교 수치로 사용해서 해결
+Dynamic shadow bias
+- light direction과 surface normal 간의 각도가 크면 bias도 크게 만들기
