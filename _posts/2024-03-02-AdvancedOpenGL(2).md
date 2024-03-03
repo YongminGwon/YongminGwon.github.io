@@ -68,3 +68,7 @@ depth cube map을 생성하는 방식
 normal map은 픽셀의 rgb 값에 normal xyz값이 저장되어 있다.
 
 ## Tangent Space
+
+## Parallex Mapping
+
+normal mapping은 큰 깊이감은 만들 수 없고 경계면에서의 입체감을 가질수는 없다.
