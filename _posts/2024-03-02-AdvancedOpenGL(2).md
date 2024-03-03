@@ -61,3 +61,7 @@ point light는 여러 depth map을 그려야하기에
 사용
 depth cube map을 생성하는 방식
 
+## Normal Mapping
+
+해상도 좋은 텍스처라도 요철을 표현하려면 버텍스 갯수를 늘려야하는데 노말매핑으로
+이를 커버할 수 있음
