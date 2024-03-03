@@ -86,4 +86,9 @@ normal mapping은 큰 깊이감은 만들 수 없고 경계면에서의 입체�
 - Better Solution
 	- 일시적으로 1.0 넘는 값도 허용한다.
 	- 마지막에 0.0~ 1.0 사이로 조절한다.
-- 
+- 이미지 처리 분야에서 노출값을 달리한 여러 이미지를 합치는 방법
+- 인간의 눈이 밝기에 적응하는 방식과 유사함
+- Floating point framebuffer
+	- framebuffer 생성 시 사용할 텍스처가 1.0 이상의 값을 저장할 수 있도록 한다.
+	- GL_RGBA16F, GL_RGBA32F 등
+
