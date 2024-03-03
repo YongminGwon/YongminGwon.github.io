@@ -91,4 +91,5 @@ normal mapping은 큰 깊이감은 만들 수 없고 경계면에서의 입체�
 - Floating point framebuffer
 	- framebuffer 생성 시 사용할 텍스처가 1.0 이상의 값을 저장할 수 있도록 한다.
 	- GL_RGBA16F, GL_RGBA32F 등
-
+- Exposure tone mapping
+	- 노출값을 파라미터로 조절해
