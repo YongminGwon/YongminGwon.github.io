@@ -54,4 +54,10 @@ Dynamic shadow bias를 적용하였을 때 bias가 크면 그림자가 멀리에
 
 ## PCF (Percentage Closer Filtering)
 - shadow map으로부터 depth값을 여러개 수집해 계산된 shadow 값의 평균을 사용
+- directional light에 사용
+
+point light는 여러 depth map을 그려야하기에
+## Omni-directional shadow map
+사용
+depth cube map을 생성하는 방식
 
