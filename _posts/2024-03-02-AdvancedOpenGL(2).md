@@ -72,3 +72,5 @@ normal map은 픽셀의 rgb 값에 normal xyz값이 저장되어 있다.
 ## Parallex Mapping
 
 normal mapping은 큰 깊이감은 만들 수 없고 경계면에서의 입체감을 가질수는 없다.
+- View vector, height map이 주어졌을 때 normal mapping은 a 위치를 기준으로 light를 계산하여 실제 위치 B를 예측하는 방법으로 mapping하는 형식
+
