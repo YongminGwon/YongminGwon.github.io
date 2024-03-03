@@ -39,8 +39,16 @@ Blinn의 방식
 
 light source의 위치에서 물체들의 depth map만 렌더링하고 이를 바탕으로 빛을 받는지 아닌지 판단하여 그림자를 그린다.
 
+## Shadow Acne
 Shadow Map 그렸을 때 Shadow acne가 일어날 수 있다.
 shadow map의 해상도가 한정적이기 때문
 bias를 더한 값을 비교 수치로 사용해서 해결
 Dynamic shadow bias
 - light direction과 surface normal 간의 각도가 크면 bias도 크게 만들기
+
+## Peter panning 현상
+
+Dynamic shadow bias를 적용하였을 때 bias가 크면 그림자가 멀리에서부터 생기는 현상
+- shadow bias값을 잘 조절하거나
+- face culling을 사용해 뒷면만 그리도록 함
+
