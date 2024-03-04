@@ -93,3 +93,8 @@ normal mapping은 큰 깊이감은 만들 수 없고 경계면에서의 입체�
 	- GL_RGBA16F, GL_RGBA32F 등
 - Exposure tone mapping
 	- 노출값을 파라미터로 조절해
+
+## Bloom
+
+Seperate Gaussian filter를 활용하여 효율적인 bloom 표현 가능
+
