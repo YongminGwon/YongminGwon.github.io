@@ -98,3 +98,16 @@ normal mapping은 큰 깊이감은 만들 수 없고 경계면에서의 입체�
 
 Seperate Gaussian filter를 활용하여 효율적인 bloom 표현 가능
 
+## Deferred Shading
+
+G-buffer : geometric/texture daa를 따로 저장
+
+G-buffer 정보를 바탕으로 lighting 계산
+
+- 3D world space position
+- Albedo (기본 배색) diffuse color
+- 3D normal
+- Specular intensity
+- Light source position & color
+- View position vector
+

@@ -78,7 +78,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -159,7 +160,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "713ebe0c390aeefb",
+  "active": "fb663e98fb5ac9c4",
   "lastOpenFiles": [
     "_posts/2024-02-29-AdvancedOpenGL.md",
     "_posts/2024-03-02-AdvancedOpenGL(2).md",
