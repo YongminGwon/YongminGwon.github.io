@@ -100,7 +100,7 @@ Seperate Gaussian filter를 활용하여 효율적인 bloom 표현 가능
 
 ## Deferred Shading
 
-G-buffer : geometric/texture daa를 따로 저장
+G-buffer : geometric/texture data를 따로 저장
 
 G-buffer 정보를 바탕으로 lighting 계산
 

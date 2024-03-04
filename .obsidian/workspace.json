@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "0225b7698d7d4e7e",
+        "id": "2d4728ec3460574f",
         "type": "tabs",
         "children": [
           {
-            "id": "d180a83fa7f0789a",
+            "id": "bbce15d454c820c5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-01-26-second.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "713ebe0c390aeefb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-03-02-AdvancedOpenGL(2).md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-03-02-AdvancedOpenGL(2).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-03-02-AdvancedOpenGL(2).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_posts/2024-03-02-AdvancedOpenGL(2).md"
-              }
+              "state": {}
             }
           }
         ]
@@ -160,10 +139,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fb663e98fb5ac9c4",
+  "active": "bbce15d454c820c5",
   "lastOpenFiles": [
-    "_posts/2024-02-29-AdvancedOpenGL.md",
+    "_posts/2024-01-26-second.md",
     "_posts/2024-03-02-AdvancedOpenGL(2).md",
+    "_posts/2024-02-29-AdvancedOpenGL.md",
     "_posts/2024-02-28-Depth Test.md",
     "_posts/2024-02-27-Object Loader.md",
     "_posts/2024-02-26-Illumination.md",
@@ -175,7 +155,6 @@
     "_posts/2024-01-29-fourth.md",
     "_posts/2024-01-27-third.md",
     "_posts/2024-01-25-first.md",
-    "_posts/2024-01-26-second.md",
     "Pasted image 20240127023233.png",
     "Pasted image 20240127023057.png"
   ]
