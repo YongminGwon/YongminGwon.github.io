@@ -111,3 +111,5 @@ G-buffer 정보를 바탕으로 lighting 계산
 - Light source position & color
 - View position vector
 
+- 단점 : blending operation 적용이 불가능, 모든 픽셀을 동일한 shading 방식으로 그려야함
+
