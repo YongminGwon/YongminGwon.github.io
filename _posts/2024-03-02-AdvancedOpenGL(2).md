@@ -115,3 +115,5 @@ G-buffer 정보를 바탕으로 lighting 계산
 
 ## SSAO
 
+Depth buffer를 활용한 ambient occlusion 계산
+
