@@ -117,3 +117,10 @@ G-buffer 정보를 바탕으로 lighting 계산
 
 Depth buffer를 활용한 ambient occlusion 계산
 
+G-Buffers
+- Position
+- Normal
+- Albedo
+Sample kernel
+Random rotation vector
+
