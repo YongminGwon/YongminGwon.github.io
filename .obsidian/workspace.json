@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "86511716ba80564f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-03-16 TIL.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,7 +159,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bbce15d454c820c5",
+  "active": "86511716ba80564f",
   "lastOpenFiles": [
     "Pasted image 20240316213748.png",
     "_posts/2024-03-15-DevLog.md",
