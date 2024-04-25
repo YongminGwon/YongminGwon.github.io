@@ -19,8 +19,6 @@ head에서 시작하여 next 포인터를 따라 이동해서 끝에 nullptr로 
 
 하므로 O(N)의 time complexity를 가진다.
 
-
-
 Preprocessor에서 .cpp와 .h로 translation unit이 생성된다.
 Compiler가 translation unit을 사용해 .obj를 만든다.
 Linker가 .exe를 만든다.
