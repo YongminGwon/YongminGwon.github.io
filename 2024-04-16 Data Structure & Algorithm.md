@@ -28,3 +28,6 @@ Linker가 .exe를 만든다.
 
 constexpr을 통해 컴파일 타임에 미리 연산을 할 수 있다.
 
+## Git Hook
+으로 Clang Format을 적용하여 깃푸시 할 수 있다.
+
