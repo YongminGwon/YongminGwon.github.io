@@ -31,3 +31,45 @@ constexpr을 통해 컴파일 타임에 미리 연산을 할 수 있다.
 ## Git Hook
 으로 Clang Format을 적용하여 깃푸시 할 수 있다.
 
+## Virtual
+
+```
+#include <iostream>
+
+class Animal
+{
+public:
+	virtual void speak()
+	{
+		std::cout << "Animal" << std::endl;
+	}
+	virtual ~Animal() = default;
+};
+
+class Cat : public Animal
+{
+public:
+	void speak() override
+	{
+		std::cout << "meow" << std::endl;
+	}
+};
+
+int main()
+{
+	int i=0;
+	std::cin >> i;
+	Animal * polyAnimal;
+	if(i==1)
+	{
+	polyAnimal = new Cat();
+	}
+	else
+	{
+	polyAnimal = new Animal();
+	}
+	polyAnimal -> speak();
+	delete polyAnimal;
+}
+
+```
