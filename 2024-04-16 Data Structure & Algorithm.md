@@ -76,3 +76,16 @@ int main()
 
 ## Virtual Table
 
+
+
+
+## ios::sync_with_stdio(0), cin.tie(0)
+
+코딩테스트를 볼때 입출력 오류를 방지하기위해 넣는 코드 상세한 설명은 다음에 따로.
+다음코드 이후에 scanf 나 prinf 쓰면안댐
+
+cin cout으로 해결
+
+## Endl
+코딩테스트에서 사용하지마시오 endl에서 입력버퍼를 지우는게 있어서.
+
