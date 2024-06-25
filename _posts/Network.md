@@ -32,5 +32,12 @@ int connect(int sockfd, struct sockaddr *serv_addr, int addrlen);
 ```
 // 파일을 여는 함수
 int open(const char *path, int flag);
+
+// 파일을 닫는 함수
+int close(int fildes);
+// fildes : 닫아줄 파일의 파일 디스크립터.
+
+// 데이터 쓰기
+ssize_t write(int fildes, const void * buf, size_t nbytes);
 ```
 
