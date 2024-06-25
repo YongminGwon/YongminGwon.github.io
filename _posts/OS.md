@@ -26,3 +26,16 @@ Windows Operating System Programming에 대해 다룹니다.
 - 보호 속성(Protection attributes)
 - 감사 정보(Audit information)
 파일이나 폴더 생성 시 접근 권한에 관한 정보가 함께 생성된다.
+
+대표적인 보안 객체
+- 파일과 폴더
+- 프로세스와 스레드
+- 파일 매핑 객체
+- 파이프
+- 토큰
+- 윈도우 스테이션 및 데스크톱
+- 레지스트리
+- 서비스
+- 프린터
+- 네트워크 공유자원
+- 이벤트, 뮤텍스, 세마포어 (Kernel object);
