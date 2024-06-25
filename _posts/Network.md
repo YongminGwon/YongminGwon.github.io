@@ -47,14 +47,27 @@ ssize_t write(int fildes, const void * buf, size_t nbytes);
 
 ### 윈도우에서의 윈속 프로그래밍
 
-winsock2.h 헤더를 include 할 때 ws2_32.lib 라이브러리를 링크시켜야하는데 이를 편하게 하기위한 매크로는
+winsock2.h 헤더를 include 할 때 ws2_32.lib 라이브러리를 링크 시켜야 하는데 이를 편하게 하기 위한 매크로는
 ```
 #pragma comment(lib, "ws2_32.lib")
 ```
 다음과 같다.
 
-윈속을 초기화 할 때 반드시 WSAStartup 함수를 호출해야한다.
+윈속을 초기화 할 때 반드시 WSAStartup 함수를 호출 해야 한다.
 
 ```
-#include <
+#include <winsock2.h>
+
+int WSAStartup(
+	WORD wVersionRequested,
+	LPWSADATA lpWSAData
+);
+```
+
+- wVersionRequested : 프로그램에서 요구하는 윈속의 최상위 버전을 알려주기 위해 사용됨. WORD는 16비트 unsigned int로 상위 8비트는 부버전 하위 8비트는 주버전을 표시한다. 값 설정이 까다로우므로 MAKEWORD라는 매크로 함수가 제공된다.
+- lpWSAData : WSADATA타입 변수의 포인터를 인자로 전달한다. 함수 호출이 끝나면 WSADATA 변수에 로딩한 DLL에 대한 정보가 채워진다. 일반적으로 많이 사용되지는 않는다.
+
+MAKEWORD 함수
+```
+#include 
 ```
