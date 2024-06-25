@@ -68,6 +68,24 @@ int WSAStartup(
 - lpWSAData : WSADATA타입 변수의 포인터를 인자로 전달한다. 함수 호출이 끝나면 WSADATA 변수에 로딩한 DLL에 대한 정보가 채워진다. 일반적으로 많이 사용되지는 않는다.
 
 MAKEWORD 함수
+
 ```
-#include 
+#include <winsock2.h>
+
+WORD MAKEWORD(
+	BYTE bLow,
+	BYTE bHigh
+);
+```
+
+bLow에 하위 8비트에 채워질 데이터를 인자로 넣고 bHigh에 상위 8비트에 채워질 데이터를 전달하면 원하는 WORD 값을 얻게 된다.
+ex) WORD(2, 2)를 호출하면 0x0202가 리턴된다.
+
+```
+int main(int argc, char **argv)
+{
+	WSADATA wsaData;
+	if(WSAStartup(MAKEWORD(2, 2), &wsaData) ! = 0)
+		error_handling("WSAStartup() error!");
+}
 ```
