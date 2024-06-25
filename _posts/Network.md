@@ -41,4 +41,7 @@ int close(int fildes);
 ssize_t write(int fildes, const void * buf, size_t nbytes);
 ```
 
-- fildes : 데이터 전송 영역을 나타내는 파일 디슼
+- fildes : 데이터 전송 영역을 나타내는 파일 디스크립터.
+- buf : 전송할 데이터를 가지고 있는 버퍼의 포인터.
+- nbytes : 전송할 데이터의 바이트 수.
+
