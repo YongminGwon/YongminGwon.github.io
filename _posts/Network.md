@@ -45,3 +45,16 @@ ssize_t write(int fildes, const void * buf, size_t nbytes);
 - buf : 전송할 데이터를 가지고 있는 버퍼의 포인터.
 - nbytes : 전송할 데이터의 바이트 수.
 
+### 윈도우에서의 윈속 프로그래밍
+
+winsock2.h 헤더를 include 할 때 ws2_32.lib 라이브러리를 링크시켜야하는데 이를 편하게 하기위한 매크로는
+```
+#pragma comment(lib, "ws2_32.lib")
+```
+다음과 같다.
+
+윈속을 초기화 할 때 반드시 WSAStartup 함수를 호출해야한다.
+
+```
+#include <
+```
