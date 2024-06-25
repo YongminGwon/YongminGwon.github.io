@@ -14,4 +14,8 @@ Windows Operating System Programming에 대해 다룹니다.
 
 ## 핸들러
 
-개념적인것 
+개념적인것 일반적으로 포인터로 나타난다. 리눅스에서는 디스크립터로 표현된다.
+
+
+## 보안 기술자 (Security Descriptor)
+
