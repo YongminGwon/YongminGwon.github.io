@@ -137,3 +137,6 @@ SOCKET accept(SOCKET s, struct sockaddr FAR *addr, int FAR *addrlen);
 
 * FAR의 경우에는 과거 16비트 windows 프로그래밍에서 사용되었던 키워드로 포인터가 세그먼트를 초과할 수 있도록 하기 위해 사용되었다. 현대는 필요없고 사용해도 컴파일 시 무시된다.
 
+## 소켓 함수
+
+소켓함수의 인자들은 세개로 첫번째는 프로토콜 체계 두번째는 소켓의 타
