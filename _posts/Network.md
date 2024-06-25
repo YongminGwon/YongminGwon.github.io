@@ -1,3 +1,6 @@
+---
+title:
+---
 
 ```
 // 소켓 생성
@@ -101,5 +104,7 @@ int WSACleanup(void);
 ```
 #include <winsock2.h>
 
-SOCKET socket(int af, int type, int )
+SOCKET socket(int af, int type, int protocol);
 ```
+]
+
