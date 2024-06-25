@@ -19,5 +19,8 @@ Windows Operating System Programming에 대해 다룹니다.
 
 ## 보안 기술자 (Security Descriptor)
 
-
-보안 객체에 대한 정
+검색시에 보안 기술자 보다는 
+보안 객체에 대한 정보
+- 객체의 소유자 및 그룹
+- 보호 속성(Protection attributes)
+- 감사 정보(Audit information)
