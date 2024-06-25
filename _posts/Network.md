@@ -89,3 +89,17 @@ int main(int argc, char **argv)
 		error_handling("WSAStartup() error!");
 }
 ```
+버전 2.2를 기반으로 할때 일반적인 시작 코드.
+
+종료 코드
+```
+int WSACleanup(void);
+```
+
+### 소켓의 생성
+
+```
+#include <winsock2.h>
+
+SOCKET socket(int af, int type, int )
+```
