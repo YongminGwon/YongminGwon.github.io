@@ -41,3 +41,4 @@ int close(int fildes);
 ssize_t write(int fildes, const void * buf, size_t nbytes);
 ```
 
+- fildes : 데이터 전송 영역을 나타내는 파일 디슼
