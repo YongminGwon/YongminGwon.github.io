@@ -19,8 +19,10 @@ Windows Operating System Programming에 대해 다룹니다.
 
 ## 보안 기술자 (Security Descriptor)
 
-검색시에 보안 기술자 보다는 
+검색시에 보안 기술자 보다는 영어로 검색하거나 보안 설명자로 검색할 경우 자료가 더 잘 나온다.
+
 보안 객체에 대한 정보
 - 객체의 소유자 및 그룹
 - 보호 속성(Protection attributes)
 - 감사 정보(Audit information)
+파일이나 폴더 생성 시 접근 권한에 관한 정보가 함께 생성된다.
