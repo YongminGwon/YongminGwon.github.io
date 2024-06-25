@@ -19,3 +19,5 @@ Windows Operating System Programming에 대해 다룹니다.
 
 ## 보안 기술자 (Security Descriptor)
 
+
+보안 객체에 대한 정
