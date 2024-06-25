@@ -38,4 +38,17 @@ Windows Operating System Programming에 대해 다룹니다.
 - 서비스
 - 프린터
 - 네트워크 공유자원
-- 이벤트, 뮤텍스, 세마포어 (Kernel object);
+- 이벤트, 뮤텍스, 세마포어 (Kernel object)
+
+## DACL(Discretionary Access Control List)
+
+보안 객체에 대한 접근 허용 차단 정보를 가진 데이터 구조
+ACL의 리스트
+ACL은 ACE(Access Contol Entry)의 리스트
+
+리스트의 리스트의 리스트인것 (DACL(ACL(ACE)))
+
+ACE
+- 윈도우 시스템에서 접근 제어를 위한 기본 정보
+- 권한에 따라 접근을 제한한다는 것은 ACE를 수정 편집하는것
+- ACE의 핵심 정보는 SID(Security IDentifier) 사용자나 그룹을 식별
