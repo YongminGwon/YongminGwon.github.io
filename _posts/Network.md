@@ -1,5 +1,7 @@
 ---
-title:
+categories:
+  - Post
+  - Layout
 ---
 
 ```
@@ -106,5 +108,29 @@ int WSACleanup(void);
 
 SOCKET socket(int af, int type, int protocol);
 ```
-]
 
+### 주소와 포트 할당
+
+```
+#include <winsock2.h>
+
+int bind(SOCKET s, const struct sockaddr FAR * name, int namelen);
+```
+
+### '연결 요청 대기 상태'로의 진입
+
+```
+#inlcude <winsock2.h>
+
+int listen(SOCKET s, int backlog);
+```
+
+
+
+### 연결 수락
+
+```
+#include <winsock2.h>
+
+SOCKET accept(SOCKET s, struct sockaddr FAR *addr, int )
+```
