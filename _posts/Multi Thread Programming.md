@@ -14,3 +14,7 @@
 CPU와 스레드의 관계는 비둘기 집의 원리와 같다. 다만 Runnable(실행중)인 CPU
 
 와 상관관계가 있다. 
+
+Runnable Suspended Terminated 의 세가지 상태의 스레드가 있다.
+
+스레드 생성에는 CreateThread()와 _beginthreadex가있다.
